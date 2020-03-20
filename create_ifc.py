@@ -45,7 +45,7 @@ create_guid = lambda: ifcopenshell.guid.compress(uuid.uuid1().hex)
 
 # IFC template creation
 
-filename = "build/out/bim/floor07.ifc"
+filename = "build/out/bim/out.ifc"
 timestamp = time.time()
 timestring = time.strftime("%Y-%m-%dT%H:%M:%S", time.gmtime(timestamp))
 creator = "U G"
